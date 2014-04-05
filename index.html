@@ -61,15 +61,116 @@
 				</section>
 
 				<section>
-					<h1>Introdução</h1>
+					<section>
+						<h1>Introdução</h1>
+					</section>
+					<section>
+						<img src="images/intro.png" />
+					</section>
 				</section>
 
-				<section>
-					<h1>Descrição do sistema</h1>
-				</section>
+<!-- Descrição do sistema -->
 
 				<section>
-					<h1>Simulação do modelo</h1>
+					<section>
+						<h1>Descrição do sistema</h1>
+					</section>
+					<section>
+						<h3>Descrição do sistema 1/3</h3>
+						<br />
+						<ul>
+							<li>145 pacientes/dia<br /><br /></li>
+							<li>Início do processo:
+							<ul>
+								<li>recepção</li>
+								<li>ambulância</li>
+							</ul><br />
+							</li>
+							<li>Término do processo:
+							<ul>
+								<li>liberado</li>
+								<li>admitido</li>
+							</ul>
+							</li>
+						</ul>
+					</section>
+					<section>
+						<h3>Descrição do sistema 2/3</h3>
+						<br />
+						<ul>
+							<li>Classificação dos pacientes:
+							<ul>
+								<li>Categoria 1 = Críticos</li>
+								<li>Categoria 2 = Não-críticos, admitidos</li>
+								<li>Categoria 3 = Não-críticos, liberados</li>
+							</ul><br />
+							</li>
+							<li>88% liberados e 12% admitidos</li>
+						</ul>
+					</section>
+					<section>
+						<h3>Descrição do sistema 3/3</h3>
+						<br />
+						<ul>
+							<li>Não exceder custo e alocação:
+							<ul>
+								<li>3 recepcionistas</li>
+								<li>4 médicos</li>
+								<li>5 tec. laboratório</li>
+								<li>6 enfermeiros de tratamento</li>
+								<li>6 enfermeiros de emergência</li>
+							</ul><br />
+							</li>
+							<li>Maximizar o atendimento de pacientes</li>
+						</ul>
+					</section>
+				</section>
+
+<!-- Simulação do modelo -->
+
+				<section>
+					<section>
+						<h1>Simulação do modelo</h1>
+					</section>
+					<section>
+						<h3>Simulação do modelo 1/3</h3>
+						<br />
+						<ul>
+							<li>Pesquisa no ED coletou:
+							<ul>
+								<li>processo de chegada</li>
+								<li>serviços na sala de exame</li>
+								<li>tempo de serviço em sala de tratamento</li>
+								<li>tempo total no ED</li>
+							</ul><br />
+							</li>
+							<li>3 semanas de analise</li>
+						</ul>
+					</section>
+					<section>
+						<h3>Simulação do modelo 2/3</h3>
+						<br />
+						<ul>
+							<li>chegada é um processo Poisson não homogêneo<br /><br /></li>
+							<li>λ(t) é a taxa de chegada de pacientes no momento t<br /><br /></li>
+						</ul>
+						<img src="images/arrival.png" />
+					</section>
+					<section>
+						<h3>Simulação do modelo 3/3</h3>
+						<br />
+						<ul>
+							<li>ED modelado por um sistema de simulação de eventos discretos:
+							<ul>
+								<li>processo de chegada na recepção de λ(t)</li>
+								<li>processo de chegada no raio-X com taxa 2/h</li>
+								<li>probabilidade de encaminhamento do paciente</li>
+								<li>número de servidores</li>
+								<li>distribuição de tempo de serviço</li>
+							</ul><br />
+							</li>
+						</ul>
+					</section>
 				</section>
 
 				<section>
